@@ -1,0 +1,102 @@
+a .imagen {
+    width: 18vh;
+    height: 11vh;
+}
+
+nav {
+    background: #1E90FF;
+
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        background: #1E90FF;
+        height: 13vh;
+    }
+
+
+}
+
+nav .Hamburger {
+    color: white;
+    border: 2px solid white;
+}
+
+div nav button span.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+div .nav-link {
+    color: white;
+    font-size: 18px ;
+    width: 100%;
+} 
+
+
+@media only screen and (min-width: 768px) {
+    div .navbar {
+        background: #1E90FF;
+        margin-top: 0px;
+        -webkit-box-shadow: 0px 0px 5px black; 	
+        -moz-box-shadow: 0px 0px 5px black; 	
+                box-shadow: 0px 0px 5px black; 	
+    }
+}
+
+
+.material-icons {
+    vertical-align: middle;
+    padding: 0 5% 0 0;
+}
+
+
+
+
+/* ---------------------------------------------------
+   SAIR
+----------------------------------------------------- */
+
+#BotaoSair {
+    text-align: center;
+    text-decoration: white; 
+    list-style:none;
+    background: #1E90FF;
+    color: white;
+    border-radius: 5px;
+    top: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    #BotaoSair {
+        text-align: center;
+        text-decoration: none; 
+        list-style:none;
+        background: #1E90FF;
+        color: white;
+        border-radius: 5px;
+        width: 10%;
+        position: relative;
+        margin-left: 70%;
+    }
+
+
+    .material-icons {
+        vertical-align: middle;
+        padding: 0 10% 0 0;
+    }
+}
+
+#BotaoSair .btn {
+    color: white;
+}
+
+#BotaoSair .btn:hover {
+    color: black;
+    background-color: #1E90FF;
+}
+
+#BotaoSair .material-icons {
+    vertical-align: middle;
+    position: relative;
+}

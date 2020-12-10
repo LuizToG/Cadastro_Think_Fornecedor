@@ -1,0 +1,232 @@
+/* ---------------------------------------------------
+    Container
+----------------------------------------------------- */
+
+.root2 {
+    background: #007bff;
+    height: 100vh;
+}
+
+
+
+#loginSistem {
+    padding: 8% 0;
+    margin-left: 35%;
+}
+
+
+/* ---------------------------------------------------
+    Titulo
+----------------------------------------------------- */
+
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.text {
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+/* ---------------------------------------------------
+    Input Login
+----------------------------------------------------- */
+
+div #login {
+
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid white;
+    border-radius: 0%;
+    background: #007bff;
+    color: white;
+    width: 100%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+  }
+  
+  .login input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .login label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+    color: white;
+  }
+
+  .login:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .login input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .login .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+/* ---------------------------------------------------
+    Input Senha
+----------------------------------------------------- */
+
+div #senha {
+
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid white;
+    border-radius: 0%;
+    background: #007bff;
+    color: white;
+    width: 100%;
+    right: auto;
+    left: auto;
+    position: relative;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+    
+  }
+  
+  .senha input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .senha label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+    color: white;
+  }
+
+  .senha:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .senha input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .senha .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+/* ---------------------------------------------------
+    Botão
+----------------------------------------------------- */
+
+
+div #buttonlogin {
+    margin-top: 2%;
+    border-radius: 0%;
+    padding-top: 1%;
+    background:white;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); 
+    border: none;
+    width: 30%;
+    position: relative;
+    float: right;
+    color: #007bff;
+}
+
+/* ---------------------------------------------------
+    Imagem
+----------------------------------------------------- */
+
+
+div #thinklogo{
+    max-width: 250px;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}
+
+/* ---------------------------------------------------
+    Material-icons
+----------------------------------------------------- */
+
+.material-icons {
+    color: white;
+    vertical-align: middle;
+    transition: 0.5s; 
+    padding: 0;
+}
+
+#buttonlogin .material-icons {
+    color: #007bff;
+    vertical-align: middle;
+    transition: 0.5s; 
+    padding: 0;
+}
+
+
+/* ---------------------------------------------------
+    Tela Mobile
+----------------------------------------------------- */
+
+
+@media only screen and (max-width: 769px) {
+
+    #loginSistem {
+        padding: 8% 0;
+        margin-left: 5%;
+    }
+
+    div #buttonlogin {
+        margin-top: 10%;
+        border-radius: 0%;
+        padding-top: 1%;
+        background:white;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); 
+        border: none;
+        width: 100%;
+        position: relative;
+        float: right;
+        color: #007bff;
+    }
+
+    div #thinklogo{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 20%;
+        margin-top: 20%;
+    }
+}
+

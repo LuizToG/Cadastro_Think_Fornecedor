@@ -1,0 +1,499 @@
+div .titulo {
+    margin: 2% 10% 2% 13%;
+}
+
+div .cadastro {
+    margin: 0% 0% 0% 8%;
+}
+
+@media only screen and (min-width: 768px) {
+    div .titulo {
+        margin: 2% 25% 2% 25%;
+        text-align: center;
+    }
+    
+    div .cadastro {
+        margin: 0% 0% 0% 2%;
+    }
+}
+
+div .row {
+    width: 100%;
+}
+
+
+/* ---------------------------------------------------
+    Input Código
+----------------------------------------------------- */
+
+div #codigo {
+        border-style: hidden hidden solid hidden; 
+        border-bottom: 1px solid black;
+        border-radius: 0%;
+}
+
+
+.codigo {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+  }
+  
+  .codigo input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .codigo label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+  }
+
+  #codigo::placeholder{
+    color: white;
+  }
+  
+
+  .codigo:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .codigo input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .codigo .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+   #codigo:focus + .labelcodigo,
+   #codigo:not(:placeholder-shown) + .labelcodigo{
+        font-size: 13px;
+        margin-top: 0;
+        color: #3951b2;
+    }
+
+
+/* ---------------------------------------------------
+    Input Nome
+----------------------------------------------------- */
+
+
+div #nome {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+  }
+  
+  .nome input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .nome label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+  }
+
+  .nome:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .nome input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .nome .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+/* ---------------------------------------------------
+    Input prinome
+----------------------------------------------------- */
+
+
+div #prinome {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+.prinome {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+  }
+  
+  .prinome input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .prinome label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+  }
+
+  .prinome:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .prinome input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .prinome .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+
+/* ---------------------------------------------------
+    Input comissao
+----------------------------------------------------- */
+
+
+div #comissao {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+.comissao {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+  }
+  
+  .comissao input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .comissao label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+  }
+
+  .comissao:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .comissao input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .comissao .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+
+/* ---------------------------------------------------
+    Input seguimento
+----------------------------------------------------- */
+
+
+div #seguimento {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+
+
+
+/* ---------------------------------------------------
+    Input seguimentogestao
+----------------------------------------------------- */
+
+
+div #seguimentogestao {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+
+/* ---------------------------------------------------
+    Input revistaparalelo
+----------------------------------------------------- */
+
+
+div #revistaparalelo {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+
+/* ---------------------------------------------------
+    Input revista
+----------------------------------------------------- */
+
+
+div #revista {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+
+/* ---------------------------------------------------
+    Input acrescimo
+----------------------------------------------------- */
+
+
+div #acrescimo {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+.acrescimo {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+  }
+  
+  .acrescimo input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .acrescimo label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+  }
+
+  .acrescimo:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .acrescimo input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .acrescimo .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+
+/* ---------------------------------------------------
+    Input vinculo
+----------------------------------------------------- */
+
+
+div #vinculo {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+.vinculo {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+  }
+  
+  .vinculo input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .vinculo label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+  }
+
+  .vinculo:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .vinculo input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .vinculo .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+
+/* ---------------------------------------------------
+    Input cpfcnpj
+----------------------------------------------------- */
+
+
+div #cpfcnpj {
+
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+.cpfcnpj {
+    display: flex;
+    flex-direction: column;
+    min-width: 36px;
+  }
+  
+  .cpfcnpj input {
+    width: 100%;
+    height: 70px;
+    padding: 28px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .cpfcnpj label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 40px) scale(1);
+    transform-origin: top left;
+    transition: all 0.5s ease-out;
+  }
+
+  .cpfcnpj:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+  .cpfcnpj input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+
+  .cpfcnpj .Active {
+    transform: translate(0, 12px) scale(0.75);
+  }
+
+
+/* ---------------------------------------------------
+    Input Código
+----------------------------------------------------- */
+
+
+div #grupo {
+    border-style: hidden hidden solid hidden; 
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+/* ---------------------------------------------------
+    Label
+----------------------------------------------------- */
+
+
+/* ---------------------------------------------------
+    checkbox
+----------------------------------------------------- */
+
+div .Ativo {
+    margin: 10% 0% 0% 10%;
+}
+
+/* ---------------------------------------------------
+    button
+----------------------------------------------------- */
+
+div #salvar {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 0%;
+    padding-top: 1%;
+    background: #007bff;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); 
+    border: none;
+    width: 60%;
+}
+
+div #salvar:hover {
+    background: white;
+    color: #007bff;
+}
+
+div #salvar:focus {
+    background: white;
+    color: #007bff;
+}
