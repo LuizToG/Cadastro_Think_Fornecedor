@@ -78,7 +78,7 @@ const Login = (props) => {
             <Row>
                 <Col sm={6}>
                     <FormGroup className="senha">
-                        <Input className="form" type="text" placeholder=" " id="senha" value={usu_senha} onChange={onChange2}></Input>
+                        <Input className="form" type="password" placeholder=" " id="senha" value={usu_senha} onChange={onChange2}></Input>
                         <Label  className={ isActive2 ? "Active" : ""}><i className="material-icons left">lock</i>Senha:</Label>
                     </FormGroup>
                 </Col>
