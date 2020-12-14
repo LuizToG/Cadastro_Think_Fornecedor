@@ -116,7 +116,7 @@ const CadastroFornecedor = (props) => {
     }
     
     function onChange11(ev) {
-        const {name, value} = ev.target.value;
+        const {name, value} = ev.target;
         setValue11(value);
         if (ev !== '') {
             setIsActive11(true);
@@ -265,7 +265,7 @@ const CadastroFornecedor = (props) => {
                     <Col sm={2}>
                         <FormGroup className="cpfcnpj">
                             <Label for="cpfcnpj" className={ isActive11 ? "Active" : ""} >CPF/CNPJ</Label>
-                            <Input id="cpfcnpj"  placeholder=" " onChange={onChange11} />
+                            <Input type="text" id="cpfcnpj"  placeholder=" " onChange={onChange11} />
                         </FormGroup>
                     </Col>
                     <Col sm={2}>                 
